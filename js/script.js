@@ -7,6 +7,6 @@ button.addEventListener("click",()=>{
     if(fspan.innerText==="WhiteGold"){
         fspan.innerText="BlackGold";
     }else{
-        fspan.innerText="BASIC";
+        fspan.innerText="WhiteGold";
     }
 })
