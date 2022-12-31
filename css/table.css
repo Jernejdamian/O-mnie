@@ -1,0 +1,19 @@
+.table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.table__overflow{
+    overflow-x: auto;
+    margin: 100px auto;
+    padding: 20px;
+}
+.tDate{
+    border: 1px solid white;
+    padding: 20px;
+}
+.tRow:hover{
+    background-color: white;
+    color:rgb(163, 144, 36);
+}

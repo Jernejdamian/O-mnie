@@ -1,0 +1,29 @@
+html{
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+    } 
+*, ::after, ::before{
+    box-sizing: inherit;
+    }
+.body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;  
+    color: white;
+    font-size: 20px;
+}
+.changeBody{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+
+
+
+
+
+  

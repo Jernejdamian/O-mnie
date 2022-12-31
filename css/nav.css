@@ -1,0 +1,23 @@
+.ulItem{
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    border-bottom: 2px solid rgb(163, 144, 36);
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.liItem{
+    margin: 10px 0;
+}
+.link{
+    text-decoration: none;
+    color: rgb(163, 144, 36);
+    font-weight: bold; 
+}
+.link:focus{
+    outline: 2px solid rgb(163, 144, 36);
+    color: rgb(163, 144, 36); 
+}
+.link:hover{
+    color: white;
+}
