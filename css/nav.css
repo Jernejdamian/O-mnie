@@ -1,14 +1,26 @@
+
 .ulItem{
+   
+    
     list-style: none;
     text-align: center;
     padding: 0px;
     border-bottom: 2px solid rgb(163, 144, 36);
-    margin-top: 100px;
-    margin-bottom: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
 .liItem{
-    margin: 10px 0;
+    margin: 10px 10px;
+    padding: 10px;
+    border: 2px solid rgb(163, 144, 36);
+    flex-grow: ;
+   
 }
+
 .link{
     text-decoration: none;
     color: rgb(163, 144, 36);

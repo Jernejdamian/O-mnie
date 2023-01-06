@@ -16,4 +16,5 @@
 .tRow:hover{
     background-color: white;
     color:rgb(163, 144, 36);
+    border: 3px solid gold ;
 }

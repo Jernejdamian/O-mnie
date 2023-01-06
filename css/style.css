@@ -9,6 +9,7 @@ html{
     box-sizing: inherit;
     }
 .body{
+    margin: 10px;
     background-color: black;
     font-family: 'Roboto', sans-serif;  
     color: white;

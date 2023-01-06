@@ -1,5 +1,5 @@
 .header__div{
-    font-size: 90px;
+    font-size: 50px;
     font-weight: 900;
     border: 20px solid rgb(163, 144, 36);
     border-top-right-radius: 50%;
@@ -21,7 +21,4 @@
     outline: none;
     font-weight: 900;
     font-size: 15px;
-}
-.myName{
-    font-size: 80px;
 }
