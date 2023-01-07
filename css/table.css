@@ -4,9 +4,13 @@
     width: 100%;
     margin-top: 20px;
 }
+.table__caption{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
 .table__overflow{
     overflow-x: auto;
-    margin: 100px auto;
+    margin: 10px auto;
     padding: 20px;
 }
 .tDate{
@@ -17,4 +21,12 @@
     background-color: white;
     color:rgb(163, 144, 36);
     border: 3px solid gold ;
+}
+
+.table__link{
+    color: gold;
+    text-decoration: none;
+}
+.table__link:hover{
+    color: green;
 }
