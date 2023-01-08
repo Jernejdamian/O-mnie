@@ -1,12 +1,16 @@
-let button = document.querySelector(".button");
-let body = document.querySelector(".body");
-let fspan = document.querySelector(".fspan");
+{
+    const button = document.querySelector(".button");
+    const body = document.querySelector(".body");
+    const fspan = document.querySelector(".fspan");
 
-button.addEventListener("click",()=>{
-    body.classList.toggle("changeBody");
-    if(fspan.innerText==="WhiteGold"){
-        fspan.innerText="BlackGold";
-    }else{
-        fspan.innerText="WhiteGold";
+    const toggleBackgroundColor = () => {
+        body.classList.toggle("changeBody");
+        if (fspan.innerText === "WhiteGold") {
+            fspan.innerText = "BlackGold";
+        } else {
+            fspan.innerText = "WhiteGold";
+        }
     }
-})
+
+    button.addEventListener("click", toggleBackgroundColor)
+}
